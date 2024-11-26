@@ -1,0 +1,66 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.movie-list-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.movie-list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie-item {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 450px;
+  padding: 20px;
+  align-items: start;
+  gap: 20px;
+}
+
+.movie-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.movie-detail {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.movie-detail h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.movie-detail p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: black;
+}
+
+.movie-genre {
+  display: inline-block;
+  background-color: #ffd1c4;
+  color: #d45d1f;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
